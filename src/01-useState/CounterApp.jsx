@@ -4,7 +4,7 @@ export const CounterApp = () => {
 
     const [state, setCounter] = useState({
         counter1: 10,
-        counter2: 20,
+        counter2: 5,
         counter3: 30,
     })
 
@@ -18,7 +18,7 @@ export const CounterApp = () => {
         <button className='btn' onClick={() => 
             setCounter({
                 ...state,
-                counter1: counter1 + 1,
+                counter1: counter1 + 5,
             })}>
                 +1
         </button>

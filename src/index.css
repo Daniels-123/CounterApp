@@ -3,5 +3,6 @@ body {
 }
 
 button {
-    margin-right: 10px;
+    margin-right: 50px;
+    padding-left: 20px;
 }
