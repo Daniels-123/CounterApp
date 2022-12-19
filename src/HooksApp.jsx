@@ -1,6 +1,6 @@
 
 export const HooksApp = () => {
   return (
-    <h1>Hooks App</h1>
+    <h1>GIT LAB  App</h1>
   )
 }
