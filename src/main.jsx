@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { CallBackHook } from './06-memos/CallBackHook'
 
 // import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook'
 // import { Message } from './02-useEffect/Message'
@@ -10,7 +11,7 @@ import ReactDOM from 'react-dom/client'
 // import { FocusScreen } from './04-useRef/FocusScreen'
 // import { Layout } from './05-useLayoutEffect/Layout'
 //import { Memorize } from './06-memos/Memorize'
-import { MemoHook } from './06-memos/MemoHook'
+//import { MemoHook } from './06-memos/MemoHook'
 // import { HooksApp } from './HooksApp'
 
 import './index.css'
@@ -18,6 +19,6 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
     // <SimpleForm   />
-    <MemoHook />
+    <CallBackHook />
   // </React.StrictMode>
 )
