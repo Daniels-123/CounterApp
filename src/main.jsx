@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { CallBackHook } from './06-memos/CallBackHook'
-import { Padre } from './07-tarea-memo/Padre'
+import { BrowserRouter } from 'react-router-dom'
+// import { CallBackHook } from './06-memos/CallBackHook'
+// import { Padre } from './07-tarea-memo/Padre'
 
 // import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook'
 // import { Message } from './02-useEffect/Message'
@@ -18,11 +19,15 @@ import { Padre } from './07-tarea-memo/Padre'
 // import './08-useReducer/intro-reducer'
 
 import './index.css'
-import { TodoApp } from './08-useReducer/TodoApp'
+// import { TodoApp } from './08-useReducer/TodoApp'
+import { MainApp } from './09-useContext/MainApp'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+    <MainApp />
+  </BrowserRouter>
   // <React.StrictMode>
     // <SimpleForm   />
-    <TodoApp />
+  
   // </React.StrictMode>
 )
